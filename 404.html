@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Crystal Clear Window Washing</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1e6ba8 0%, #154a73 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .error-content {
+            max-width: 600px;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            line-height: 1;
+            color: #ffc107;
+            margin-bottom: 1rem;
+        }
+
+        .error-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .error-message {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .error-icon {
+            font-size: 6rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .error-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        @media (min-width: 640px) {
+            .error-links {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .error-code {
+                font-size: 5rem;
+            }
+
+            .error-title {
+                font-size: 1.75rem;
+            }
+
+            .error-message {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <div class="error-content">
+            <span class="material-symbols-outlined error-icon">search_off</span>
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-message">
+                Oops! It looks like the page you're looking for doesn't exist.
+                It might have been moved or deleted, or the URL may be incorrect.
+            </p>
+
+            <div class="error-links">
+                <a href="/" class="btn btn-accent btn-lg">
+                    <span class="material-symbols-outlined" style="font-size: 1.5rem; margin-right: 0.5rem;">home</span>
+                    Back to Home
+                </a>
+                <a href="/pages/contact.html" class="btn btn-lg" style="background-color: white; color: var(--color-primary);">
+                    <span class="material-symbols-outlined" style="font-size: 1.5rem; margin-right: 0.5rem;">contact_support</span>
+                    Contact Us
+                </a>
+            </div>
+
+            <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+                <p style="margin-bottom: 1rem; font-size: 1.125rem;">Or call us directly:</p>
+                <a href="tel:+15551234567" style="color: #ffc107; text-decoration: none; font-size: 1.5rem; font-weight: 700;">
+                    <span class="material-symbols-outlined" style="vertical-align: middle; margin-right: 0.5rem;">phone</span>
+                    (555) 123-4567
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

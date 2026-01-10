@@ -1,0 +1,28 @@
+# Images Directory
+
+This directory contains images for the Crystal Clear Window Washing website.
+
+## Required Images
+
+### Favicon
+- `favicon.ico` - Browser tab icon (16x16, 32x32, 48x48)
+
+### Logo
+- `logo.jpg` or `logo.png` - Company logo for Schema.org markup and social media
+
+### Service Photos (Optional but Recommended)
+- `residential-hero.jpg` - Residential service hero image
+- `commercial-hero.jpg` - Commercial service hero image
+- `high-rise-hero.jpg` - High-rise cleaning hero image
+- `screen-services-hero.jpg` - Screen services hero image
+- `gutter-cleaning-hero.jpg` - Gutter cleaning hero image
+- `pressure-washing-hero.jpg` - Pressure washing hero image
+
+### Before/After Photos
+- Place before/after comparison photos here
+
+## Image Guidelines
+- Optimize all images for web (compress without losing quality)
+- Use WebP format for modern browsers with JPEG/PNG fallbacks
+- Recommended max width: 1920px for hero images, 800px for thumbnails
+- Use descriptive file names for SEO
