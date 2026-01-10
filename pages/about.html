@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Crystal Clear Window Washing. Family-owned and serving Hamilton, Ontario for 15+ years with professional window cleaning services.">
+    <meta name="keywords" content="about Crystal Clear, Hamilton window cleaning company, family owned, licensed insured">
+
+    <title>About Crystal Clear Window Washing | Hamilton, ON</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <!-- Organization Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Crystal Clear Window Washing",
+        "image": "https://www.crystalclearwashing.com/images/logo.jpg",
+        "@id": "https://www.crystalclearwashing.com",
+        "url": "https://www.crystalclearwashing.com",
+        "telephone": "+1-555-123-4567",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Hamilton",
+            "addressRegion": "ON",
+            "postalCode": "L8P 1A1",
+            "addressCountry": "CA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.2557,
+            "longitude": -79.8711
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "16:00"
+            }
+        ],
+        "foundingDate": "2009",
+        "description": "Family-owned window cleaning company serving Hamilton, Ontario for over 15 years with professional, eco-friendly services."
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.crystalclearwashing.com"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Us"
+        }]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="../index.html" class="logo">
+                <span class="material-symbols-outlined logo-icon">wb_sunny</span>
+                <span class="logo-text">Crystal Clear</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <a href="tel:+15551234567" class="btn btn-accent" style="display: none;">
+                    <span class="material-symbols-outlined" style="font-size: 1.25rem; margin-right: 0.5rem;">phone</span>
+                    Call Now
+                </a>
+                <style>
+                    @media (min-width: 640px) {
+                        .btn-accent { display: inline-flex !important; }
+                    }
+                </style>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li><a href="../index.html" class="mobile-menu-link">Home</a></li>
+                <li><a href="../index.html#services" class="mobile-menu-link">Services</a></li>
+                <li><a href="about.html" class="mobile-menu-link">About</a></li>
+                <li><a href="contact.html" class="mobile-menu-link">Contact</a></li>
+                <li><a href="tel:+15551234567" class="mobile-menu-link">
+                    <span class="material-symbols-outlined" style="vertical-align: middle;">phone</span>
+                    (555) 123-4567
+                </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- BREADCRUMB -->
+        <nav aria-label="Breadcrumb" style="background-color: var(--color-gray-50); padding: var(--spacing-4) 0; border-bottom: 1px solid var(--color-gray-200);">
+            <div class="container">
+                <ol style="display: flex; gap: var(--spacing-2); list-style: none; font-size: var(--font-size-sm); color: var(--color-gray-600);">
+                    <li><a href="../index.html" style="color: var(--color-primary); text-decoration: none;">Home</a></li>
+                    <li>/</li>
+                    <li style="color: var(--color-gray-900); font-weight: 600;">About Us</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <section style="background: linear-gradient(135deg, #1e6ba8 0%, #154a73 100%); color: white; padding: 3rem 0; position: relative; overflow: hidden;">
+            <div style="position: absolute; top: -50px; right: -50px; width: 300px; height: 300px; background-color: rgba(255, 255, 255, 0.05); border-radius: 50%;"></div>
+
+            <div class="container" style="position: relative; z-index: 1;">
+                <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                    <h1 style="font-size: var(--font-size-4xl); font-weight: 900; line-height: 1.1; margin-bottom: var(--spacing-5);">
+                        About Crystal Clear Window Washing
+                    </h1>
+
+                    <p style="font-size: var(--font-size-lg); opacity: 0.95; line-height: 1.7; margin-bottom: var(--spacing-8);">
+                        Family-owned and Hamilton-proud. Delivering exceptional window cleaning services since 2009.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR STORY SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Our Story
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Crystal Clear Window Washing was founded in 2009 by a Hamilton family with a simple mission: provide honest, reliable window cleaning services that homeowners and business owners could trust. What started as a one-person operation with a squeegee and a ladder has grown into one of Hamilton's most trusted window cleaning companies.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Over the past 15+ years, we've cleaned thousands of homes and businesses throughout Hamilton and surrounding communities. But despite our growth, we've never forgotten our roots. We're still a family-owned business, and we still treat every customer like a neighbor—because in Hamilton, they are.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-8);">
+                        Our reputation has been built one satisfied customer at a time. We've grown through word-of-mouth referrals, positive reviews, and repeat business from clients who appreciate our attention to detail, professionalism, and commitment to quality. We take pride in every job we complete, whether it's a small residential home or a large commercial building.
+                    </p>
+
+                    <!-- Stats -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-6); padding: var(--spacing-8); background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); border-radius: var(--radius-xl); color: white;">
+                        <div style="text-align: center;">
+                            <div style="font-size: var(--font-size-4xl); font-weight: 900; margin-bottom: var(--spacing-2);">15+</div>
+                            <div style="font-size: var(--font-size-base); opacity: 0.95;">Years Serving Hamilton</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: var(--font-size-4xl); font-weight: 900; margin-bottom: var(--spacing-2);">10,000+</div>
+                            <div style="font-size: var(--font-size-base); opacity: 0.95;">Windows Cleaned</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: var(--font-size-4xl); font-weight: 900; margin-bottom: var(--spacing-2);">4.9</div>
+                            <div style="font-size: var(--font-size-base); opacity: 0.95;">Average Rating</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MISSION & VALUES -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; text-align: center; margin-bottom: var(--spacing-10); color: var(--color-gray-900);">
+                        Our Mission & Values
+                    </h2>
+
+                    <div style="display: grid; grid-template-columns: 1fr; gap: var(--spacing-6);">
+                        <!-- Quality -->
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); border-top: 4px solid var(--color-primary);">
+                            <div style="display: flex; gap: var(--spacing-4); align-items: flex-start;">
+                                <div style="flex-shrink: 0; width: 60px; height: 60px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center;">
+                                    <span class="material-symbols-outlined" style="color: white; font-size: 2rem;">star</span>
+                                </div>
+                                <div>
+                                    <h3 style="font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--spacing-2);">Quality Above All</h3>
+                                    <p style="color: var(--color-gray-600); line-height: 1.7;">
+                                        We're perfectionists when it comes to window cleaning. Every job is completed to the highest standards, with attention to detail that sets us apart. We don't consider a job done until you're completely satisfied with the results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trust -->
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); border-top: 4px solid var(--color-accent);">
+                            <div style="display: flex; gap: var(--spacing-4); align-items: flex-start;">
+                                <div style="flex-shrink: 0; width: 60px; height: 60px; background: linear-gradient(135deg, var(--color-accent) 0%, #ffb300 100%); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center;">
+                                    <span class="material-symbols-outlined" style="color: var(--color-gray-900); font-size: 2rem;">handshake</span>
+                                </div>
+                                <div>
+                                    <h3 style="font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--spacing-2);">Trust & Integrity</h3>
+                                    <p style="color: var(--color-gray-600); line-height: 1.7;">
+                                        Our business is built on trust. We show up on time, honor our quotes, and treat your property with the utmost respect. Our team members are background-checked, trained professionals who take pride in their work and your satisfaction.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Community -->
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); border-top: 4px solid var(--color-primary);">
+                            <div style="display: flex; gap: var(--spacing-4); align-items: flex-start;">
+                                <div style="flex-shrink: 0; width: 60px; height: 60px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center;">
+                                    <span class="material-symbols-outlined" style="color: white; font-size: 2rem;">diversity_3</span>
+                                </div>
+                                <div>
+                                    <h3 style="font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--spacing-2);">Community First</h3>
+                                    <p style="color: var(--color-gray-600); line-height: 1.7;">
+                                        Hamilton isn't just where we work—it's where we live, raise our families, and give back. We're proud to support local charities, sponsor community events, and provide employment opportunities to our neighbors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Eco-Friendly -->
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); border-top: 4px solid #4caf50;">
+                            <div style="display: flex; gap: var(--spacing-4); align-items: flex-start;">
+                                <div style="flex-shrink: 0; width: 60px; height: 60px; background: linear-gradient(135deg, #4caf50 0%, #66bb6a 100%); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center;">
+                                    <span class="material-symbols-outlined" style="color: white; font-size: 2rem;">eco</span>
+                                </div>
+                                <div>
+                                    <h3 style="font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--spacing-2);">Environmental Responsibility</h3>
+                                    <p style="color: var(--color-gray-600); line-height: 1.7;">
+                                        We're committed to protecting the environment for future generations. All our cleaning products are eco-friendly, biodegradable, and safe for your family, pets, and landscaping. We minimize water waste and dispose of all materials responsibly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LICENSES & INSURANCE -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; text-align: center; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Licensed, Insured & Professional
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; text-align: center; margin-bottom: var(--spacing-8); max-width: 700px; margin-left: auto; margin-right: auto;">
+                        Your peace of mind is important to us. We maintain all necessary licenses and insurance to protect both our team and your property.
+                    </p>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-5);">
+                        <div style="background: var(--color-gray-50); padding: var(--spacing-6); border-radius: var(--radius-lg); text-align: center;">
+                            <span class="material-symbols-outlined" style="font-size: 3rem; color: var(--color-primary); margin-bottom: var(--spacing-3);">verified_user</span>
+                            <h3 style="font-size: var(--font-size-lg); font-weight: 700; margin-bottom: var(--spacing-2);">Fully Licensed</h3>
+                            <p style="color: var(--color-gray-600); font-size: var(--font-size-sm);">
+                                Licensed to operate in Ontario with all required business permits and registrations
+                            </p>
+                        </div>
+
+                        <div style="background: var(--color-gray-50); padding: var(--spacing-6); border-radius: var(--radius-lg); text-align: center;">
+                            <span class="material-symbols-outlined" style="font-size: 3rem; color: var(--color-primary); margin-bottom: var(--spacing-3);">shield</span>
+                            <h3 style="font-size: var(--font-size-lg); font-weight: 700; margin-bottom: var(--spacing-2);">Fully Insured</h3>
+                            <p style="color: var(--color-gray-600); font-size: var(--font-size-sm);">
+                                Comprehensive liability and workers' compensation insurance coverage
+                            </p>
+                        </div>
+
+                        <div style="background: var(--color-gray-50); padding: var(--spacing-6); border-radius: var(--radius-lg); text-align: center;">
+                            <span class="material-symbols-outlined" style="font-size: 3rem; color: var(--color-primary); margin-bottom: var(--spacing-3);">school</span>
+                            <h3 style="font-size: var(--font-size-lg); font-weight: 700; margin-bottom: var(--spacing-2);">Safety Certified</h3>
+                            <p style="color: var(--color-gray-600); font-size: var(--font-size-sm);">
+                                Team members trained in proper safety procedures and equipment use
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICE AREA -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-4); color: var(--color-gray-900);">
+                        Proudly Serving Hamilton & Beyond
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-8);">
+                        We provide professional window cleaning services throughout Hamilton and surrounding communities, including Burlington, Stoney Creek, Ancaster, Dundas, Waterdown, and more.
+                    </p>
+
+                    <a href="service-area.html" class="btn btn-primary btn-lg">
+                        <span class="material-symbols-outlined" style="font-size: 1.25rem; margin-right: 0.5rem;">map</span>
+                        View All Service Areas
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEAM SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; text-align: center; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Meet Our Team
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; text-align: center; margin-bottom: var(--spacing-10); max-width: 700px; margin-left: auto; margin-right: auto;">
+                        Our experienced team of window cleaning professionals is dedicated to delivering exceptional service with every job. Each member is trained, background-checked, and committed to your satisfaction.
+                    </p>
+
+                    <!-- Team Members Placeholder -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-6);">
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); text-align: center;">
+                            <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); margin: 0 auto var(--spacing-4); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="font-size: 4rem; color: white;">person</span>
+                            </div>
+                            <h3 style="font-size: var(--font-size-lg); font-weight: 700; margin-bottom: var(--spacing-1);">Founder & Owner</h3>
+                            <p style="color: var(--color-gray-600); font-size: var(--font-size-sm); margin-bottom: var(--spacing-3);">15+ Years Experience</p>
+                            <p style="color: var(--color-gray-700); line-height: 1.6; font-size: var(--font-size-sm);">
+                                Leading the team with a commitment to quality and customer satisfaction
+                            </p>
+                        </div>
+
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); text-align: center;">
+                            <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); margin: 0 auto var(--spacing-4); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="font-size: 4rem; color: white;">groups</span>
+                            </div>
+                            <h3 style="font-size: var(--font-size-lg); font-weight: 700; margin-bottom: var(--spacing-1);">Professional Technicians</h3>
+                            <p style="color: var(--color-gray-600); font-size: var(--font-size-sm); margin-bottom: var(--spacing-3);">Trained & Certified</p>
+                            <p style="color: var(--color-gray-700); line-height: 1.6; font-size: var(--font-size-sm);">
+                                Skilled team members dedicated to delivering spotless results on every job
+                            </p>
+                        </div>
+
+                        <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); text-align: center;">
+                            <div style="width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); margin: 0 auto var(--spacing-4); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="font-size: 4rem; color: white;">support_agent</span>
+                            </div>
+                            <h3 style="font-size: var(--font-size-lg); font-weight: 700; margin-bottom: var(--spacing-1);">Customer Service</h3>
+                            <p style="color: var(--color-gray-600); font-size: var(--font-size-sm); margin-bottom: var(--spacing-3);">Friendly & Responsive</p>
+                            <p style="color: var(--color-gray-700); line-height: 1.6; font-size: var(--font-size-sm);">
+                                Ready to answer your questions and schedule your service
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div class="cta-section">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Ready to Experience the Crystal Clear Difference?</h2>
+                        <p class="cta-description">
+                            Join thousands of satisfied customers throughout Hamilton. Get your free quote today!
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="tel:+15551234567" class="btn btn-accent btn-lg">
+                                <span class="material-symbols-outlined" style="font-size: 1.5rem; margin-right: 0.5rem;">phone</span>
+                                Call (555) 123-4567
+                            </a>
+                            <a href="contact.html" class="btn btn-outline btn-lg" style="background-color: white; color: var(--color-primary);">
+                                <span class="material-symbols-outlined" style="font-size: 1.5rem; margin-right: 0.5rem;">email</span>
+                                Contact Us
+                            </a>
+                        </div>
+                        <p style="margin-top: var(--spacing-6); font-size: var(--font-size-sm); opacity: 0.9;">
+                            <span class="material-symbols-outlined" style="vertical-align: middle; font-size: 1.25rem; margin-right: 0.25rem;">schedule</span>
+                            Mon-Fri 8am-6pm, Sat 9am-4pm | Same-day quotes available
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Crystal Clear</h3>
+                    <p>
+                        Professional window washing services for residential and commercial properties in Hamilton, Ontario and surrounding areas.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <span class="material-symbols-outlined footer-icon">phone</span>
+                        <div>
+                            <p><strong>Phone</strong></p>
+                            <a href="tel:+15551234567">(555) 123-4567</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="material-symbols-outlined footer-icon">email</span>
+                        <div>
+                            <p><strong>Email</strong></p>
+                            <a href="mailto:info@crystalclearwashing.com">info@crystalclearwashing.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="material-symbols-outlined footer-icon">location_on</span>
+                        <div>
+                            <p><strong>Address</strong></p>
+                            <p>123 Main Street<br>Hamilton, ON L8P 1A1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crystal Clear Window Washing. All rights reserved. | Hamilton, Ontario</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

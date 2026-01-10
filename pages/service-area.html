@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crystal Clear Window Washing serves Hamilton, Burlington, Stoney Creek, Ancaster, and surrounding Ontario communities. Professional window cleaning near you.">
+    <meta name="keywords" content="window cleaning Hamilton, Burlington window washing, Stoney Creek, Ancaster, service area">
+
+    <title>Service Areas | Window Cleaning in Hamilton & Surrounding Areas</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <!-- Service Area Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Crystal Clear Window Washing",
+        "image": "https://www.crystalclearwashing.com/images/logo.jpg",
+        "@id": "https://www.crystalclearwashing.com",
+        "url": "https://www.crystalclearwashing.com",
+        "telephone": "+1-555-123-4567",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Hamilton",
+            "addressRegion": "ON",
+            "postalCode": "L8P 1A1",
+            "addressCountry": "CA"
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Hamilton"
+            },
+            {
+                "@type": "City",
+                "name": "Burlington"
+            },
+            {
+                "@type": "City",
+                "name": "Stoney Creek"
+            },
+            {
+                "@type": "City",
+                "name": "Ancaster"
+            },
+            {
+                "@type": "City",
+                "name": "Dundas"
+            },
+            {
+                "@type": "City",
+                "name": "Waterdown"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.crystalclearwashing.com"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas"
+        }]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="../index.html" class="logo">
+                <span class="material-symbols-outlined logo-icon">wb_sunny</span>
+                <span class="logo-text">Crystal Clear</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <a href="tel:+15551234567" class="btn btn-accent" style="display: none;">
+                    <span class="material-symbols-outlined" style="font-size: 1.25rem; margin-right: 0.5rem;">phone</span>
+                    Call Now
+                </a>
+                <style>
+                    @media (min-width: 640px) {
+                        .btn-accent { display: inline-flex !important; }
+                    }
+                </style>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <ul class="mobile-menu-list">
+                <li><a href="../index.html" class="mobile-menu-link">Home</a></li>
+                <li><a href="../index.html#services" class="mobile-menu-link">Services</a></li>
+                <li><a href="about.html" class="mobile-menu-link">About</a></li>
+                <li><a href="contact.html" class="mobile-menu-link">Contact</a></li>
+                <li><a href="tel:+15551234567" class="mobile-menu-link">
+                    <span class="material-symbols-outlined" style="vertical-align: middle;">phone</span>
+                    (555) 123-4567
+                </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- BREADCRUMB -->
+        <nav aria-label="Breadcrumb" style="background-color: var(--color-gray-50); padding: var(--spacing-4) 0; border-bottom: 1px solid var(--color-gray-200);">
+            <div class="container">
+                <ol style="display: flex; gap: var(--spacing-2); list-style: none; font-size: var(--font-size-sm); color: var(--color-gray-600);">
+                    <li><a href="../index.html" style="color: var(--color-primary); text-decoration: none;">Home</a></li>
+                    <li>/</li>
+                    <li style="color: var(--color-gray-900); font-weight: 600;">Service Areas</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <section style="background: linear-gradient(135deg, #1e6ba8 0%, #154a73 100%); color: white; padding: 3rem 0; position: relative; overflow: hidden;">
+            <div style="position: absolute; top: -50px; right: -50px; width: 300px; height: 300px; background-color: rgba(255, 255, 255, 0.05); border-radius: 50%;"></div>
+
+            <div class="container" style="position: relative; z-index: 1;">
+                <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                    <h1 style="font-size: var(--font-size-4xl); font-weight: 900; line-height: 1.1; margin-bottom: var(--spacing-5);">
+                        Areas We Serve in Ontario
+                    </h1>
+
+                    <p style="font-size: var(--font-size-lg); opacity: 0.95; line-height: 1.7; margin-bottom: var(--spacing-6);">
+                        Professional window cleaning services throughout Hamilton and surrounding communities within a 30km radius.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRO SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; text-align: center; margin-bottom: var(--spacing-10);">
+                        Based in Hamilton, Ontario, Crystal Clear Window Washing proudly serves residential and commercial clients throughout the Greater Hamilton Area. Our local knowledge and commitment to excellent service have made us the trusted choice for window cleaning across the region. No matter where you're located within our service area, we bring the same high-quality results and professional care to every job.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HAMILTON SECTION -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <div style="display: inline-block; background-color: var(--color-primary); color: white; padding: var(--spacing-2) var(--spacing-4); border-radius: var(--radius-full); margin-bottom: var(--spacing-4); font-size: var(--font-size-sm); font-weight: 600;">
+                        PRIMARY SERVICE AREA
+                    </div>
+
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Window Cleaning in Hamilton, Ontario
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Hamilton is our home, and we're proud to serve every corner of this vibrant city. From historic homes in Durand and Kirkendall to modern condos downtown, from family neighborhoods on the Mountain to bustling commercial districts on King Street and James Street North, we know Hamilton inside and out. Our technicians are familiar with the unique architectural styles throughout the city, from century-old Victorian homes to contemporary glass-fronted office buildings.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        We service all Hamilton neighborhoods including Downtown Hamilton, the Hamilton Mountain (Upper Hamilton), East Hamilton, West Hamilton, North End, and South Hamilton. Whether you're looking for <a href="residential.html" style="color: var(--color-primary); text-decoration: underline;">residential window cleaning</a> for your home or <a href="commercial.html" style="color: var(--color-primary); text-decoration: underline;">commercial window washing</a> for your business, we have the experience and equipment to handle any job in Hamilton.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-6);">
+                        Hamilton's proximity to Lake Ontario means windows can accumulate environmental buildup, hard water spots, and seasonal debris. Our specialized cleaning techniques and eco-friendly solutions are specifically designed to tackle these local challenges, leaving your windows crystal clear year-round. We also offer <a href="gutter-cleaning.html" style="color: var(--color-primary); text-decoration: underline;">gutter cleaning</a> and <a href="pressure-washing.html" style="color: var(--color-primary); text-decoration: underline;">pressure washing</a> services to keep your entire property looking its best.
+                    </p>
+
+                    <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm);">
+                        <h3 style="font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--spacing-4);">Hamilton Areas We Serve:</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-3);">
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>Downtown Hamilton</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>Hamilton Mountain</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>East Hamilton</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>West Hamilton</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>North End</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>Durand</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>Kirkendall</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 1.25rem;">location_on</span>
+                                <span>Westdale</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BURLINGTON SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Window Cleaning in Burlington, Ontario
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Burlington's beautiful lakefront homes, established neighborhoods, and thriving business districts require professional window cleaning services that understand the unique needs of this picturesque community. We're proud to serve Burlington residents and businesses with the same dedication and quality that we bring to our Hamilton clients. From waterfront properties along Lake Ontario to family homes in Aldershot, Palmer, and Orchard, we provide comprehensive window cleaning solutions tailored to Burlington's diverse properties.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Burlington's proximity to the lake means windows face additional exposure to moisture, mineral deposits, and lake-effect weather. Our team is experienced in handling these challenges with specialized cleaning techniques that protect your windows while delivering streak-free results. We service both <a href="residential.html" style="color: var(--color-primary); text-decoration: underline;">residential properties</a> and <a href="commercial.html" style="color: var(--color-primary); text-decoration: underline;">commercial buildings</a> throughout Burlington, including retail spaces along Brant Street, office buildings in the downtown core, and condominiums along the waterfront.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-6);">
+                        Whether you need regular maintenance cleaning for your Burlington home or business, seasonal deep cleaning, or specialty services like <a href="screen-services.html" style="color: var(--color-primary); text-decoration: underline;">screen cleaning and repair</a>, our team arrives fully equipped to handle all your window care needs. We understand Burlington's high standards for property maintenance and deliver results that enhance your property's appearance and value.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- STONEY CREEK SECTION -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Window Cleaning in Stoney Creek, Ontario
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Stoney Creek's growing residential communities and expanding commercial areas make it an important part of our service region. From established neighborhoods like Battlefield and Fruitland to newer developments in Winona and Elfrida, we provide professional window cleaning services that Stoney Creek residents trust. Our knowledge of the area's mix of housing styles—from historic homes near the battlefield to modern subdivisions—ensures we approach each property with the right techniques and equipment.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Stoney Creek's position at the base of the Niagara Escarpment creates unique environmental conditions that can affect window cleanliness. Pollen from the escarpment forests, road spray from the QEW, and seasonal weather patterns all contribute to window buildup. Our team uses professional-grade, eco-friendly cleaning solutions that effectively remove these contaminants while being safe for your family, pets, and landscaping. We offer complete <a href="residential.html" style="color: var(--color-primary); text-decoration: underline;">residential window cleaning</a> services including both interior and exterior washing, frame and sill cleaning, and optional screen maintenance.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-6);">
+                        For Stoney Creek businesses along Centennial Parkway, King Street, and other commercial corridors, we provide reliable <a href="commercial.html" style="color: var(--color-primary); text-decoration: underline;">commercial window cleaning</a> services that help maintain your professional image. We work around your schedule to minimize disruption to your operations, offering flexible appointment times including after-hours service. Our comprehensive property maintenance services also include <a href="pressure-washing.html" style="color: var(--color-primary); text-decoration: underline;">pressure washing</a> for building exteriors, walkways, and parking areas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANCASTER SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Window Cleaning in Ancaster, Ontario
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Ancaster's blend of historic charm and modern luxury homes requires window cleaning services that appreciate the area's character and high property standards. From the tree-lined streets of Old Ancaster to the executive homes in Meadowlands and newer developments throughout the community, we provide premium window cleaning services that match Ancaster's quality expectations. Our technicians are trained to work with all types of windows, from traditional paned windows in heritage homes to large picture windows and floor-to-ceiling glass in contemporary properties.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Ancaster's heavily wooded areas create beautiful surroundings but also mean properties are exposed to more tree sap, pollen, and organic debris. Our <a href="residential.html" style="color: var(--color-primary); text-decoration: underline;">residential window cleaning</a> service addresses these specific challenges with techniques designed to remove stubborn buildup without damaging window surfaces or frames. We take special care with high-end finishes, decorative glass, and custom window installations that are common in Ancaster homes.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-6);">
+                        For Ancaster commercial properties, including the businesses along Wilson Street and throughout Meadowlands, we provide professional window cleaning that enhances your business's appearance and welcomes customers. Our services complement other exterior maintenance needs—we also offer <a href="gutter-cleaning.html" style="color: var(--color-primary); text-decoration: underline;">gutter cleaning</a> to prevent overflow damage and <a href="pressure-washing.html" style="color: var(--color-primary); text-decoration: underline;">pressure washing</a> for complete property care. We understand that Ancaster property owners value both quality results and reliable, respectful service, and we deliver both on every job.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DUNDAS SECTION -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Window Cleaning in Dundas, Ontario
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Dundas's historic downtown core and surrounding residential neighborhoods have their own unique character and window cleaning needs. The valley location and abundance of heritage buildings create specific challenges that require experienced professionals who understand both historic window care and modern cleaning techniques. We're proud to serve Dundas homes and businesses with services that respect the community's heritage while delivering modern, eco-friendly results.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        From charming century homes with original woodwork to contemporary residences in Governor's Gate, we provide <a href="residential.html" style="color: var(--color-primary); text-decoration: underline;">residential window cleaning</a> that's tailored to each property's specific needs. Dundas's valley location means properties can experience more moisture and fog, which can lead to more frequent window cleaning needs. Our team is equipped to handle these conditions and can recommend a maintenance schedule that keeps your windows looking their best throughout the year.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-6);">
+                        For Dundas businesses, particularly along King Street in the downtown core, clean windows are essential for maintaining the welcoming atmosphere that draws visitors to this walkable community. Our <a href="commercial.html" style="color: var(--color-primary); text-decoration: underline;">commercial window cleaning</a> services help storefronts, restaurants, and offices maintain their professional appearance. We schedule our services to work around your business hours and can provide regular maintenance programs that ensure your windows always look their best.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- WATERDOWN SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Window Cleaning in Waterdown, Ontario
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Waterdown's rapid growth and mix of new developments and established neighborhoods make it an important part of our service area. From the historic Main Street to growing residential areas like Waterdown Heights and newer subdivisions, we provide professional window cleaning services throughout this vibrant community. Our team is experienced with the modern home designs common in Waterdown's newer developments, including large windows, vaulted glass features, and contemporary architectural styles.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-5);">
+                        Waterdown's elevated position and exposure to prevailing winds means windows can accumulate dirt and debris more quickly than in sheltered areas. Our <a href="residential.html" style="color: var(--color-primary); text-decoration: underline;">residential window cleaning</a> service uses professional techniques to remove wind-blown dirt, pollen, and environmental buildup, leaving your windows spotless inside and out. We're equipped to safely clean multi-story homes and can handle challenging window configurations including high peaks, skylights, and hard-to-reach glass features.
+                    </p>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-6);">
+                        Waterdown businesses benefit from our reliable <a href="commercial.html" style="color: var(--color-primary); text-decoration: underline;">commercial window cleaning</a> services that maintain professional appearances for retail shops, offices, and service providers throughout the area. Beyond window cleaning, we offer comprehensive exterior maintenance including <a href="screen-services.html" style="color: var(--color-primary); text-decoration: underline;">screen cleaning and repair</a>, <a href="gutter-cleaning.html" style="color: var(--color-primary); text-decoration: underline;">gutter cleaning</a>, and <a href="pressure-washing.html" style="color: var(--color-primary); text-decoration: underline;">pressure washing</a> to keep your entire property looking its best.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- OTHER AREAS SECTION -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-2xl); font-weight: 900; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Additional Service Areas
+                    </h2>
+
+                    <p style="font-size: var(--font-size-lg); color: var(--color-gray-700); line-height: 1.8; margin-bottom: var(--spacing-8);">
+                        In addition to our primary service areas, we also serve surrounding communities within approximately 30 kilometers of Hamilton. Our service area includes:
+                    </p>
+
+                    <div style="background: white; padding: var(--spacing-6); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); margin-bottom: var(--spacing-8);">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-4);">
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Grimsby</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Oakville</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Milton</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Flamborough</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Binbrook</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Caledonia</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Carlisle</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Winona</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Mount Hope</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Freelton</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Greensville</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: var(--spacing-2);">
+                                <span class="material-symbols-outlined" style="color: var(--color-accent); font-size: 1.25rem;">check_circle</span>
+                                <span style="color: var(--color-gray-700);">Lynden</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%); padding: var(--spacing-6); border-radius: var(--radius-xl); color: white; text-align: center;">
+                        <h3 style="font-size: var(--font-size-xl); font-weight: 700; margin-bottom: var(--spacing-3);">
+                            Don't See Your Area?
+                        </h3>
+                        <p style="opacity: 0.95; margin-bottom: var(--spacing-4); line-height: 1.7;">
+                            We may still be able to serve you! Contact us to discuss your location. We're always looking to expand our service area and accommodate new clients throughout the Greater Hamilton region.
+                        </p>
+                        <a href="contact.html" class="btn btn-accent btn-lg">
+                            Contact Us Today
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAP SECTION -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-2xl); font-weight: 900; text-align: center; margin-bottom: var(--spacing-6); color: var(--color-gray-900);">
+                        Our Service Area Map
+                    </h2>
+
+                    <!-- Service Area Map Placeholder -->
+                    <div style="background: linear-gradient(135deg, #e3f2fd 0%, #f5f5f5 100%); border-radius: var(--radius-xl); padding: var(--spacing-10); text-align: center; border: 2px solid var(--color-gray-200);">
+                        <span class="material-symbols-outlined" style="font-size: 4rem; color: var(--color-primary); margin-bottom: var(--spacing-4);">map</span>
+                        <h3 style="font-size: var(--font-size-lg); font-weight: 600; margin-bottom: var(--spacing-3); color: var(--color-gray-900);">
+                            Interactive Service Area Map
+                        </h3>
+                        <p style="color: var(--color-gray-600); max-width: 600px; margin: 0 auto; line-height: 1.7;">
+                            To add a custom service area map: Create a map using Google My Maps or similar tool, then embed the iframe here. You can also use a static image showing your service radius around Hamilton.
+                        </p>
+                        <p style="color: var(--color-gray-600); font-size: var(--font-size-sm); margin-top: var(--spacing-4);">
+                            <!-- Replace this div with: <iframe src="YOUR_MAP_EMBED_URL" width="100%" height="450" style="border:0;"></iframe> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES OVERVIEW -->
+        <section class="section" style="background-color: var(--color-gray-50);">
+            <div class="container">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="font-size: var(--font-size-2xl); font-weight: 900; text-align: center; margin-bottom: var(--spacing-8); color: var(--color-gray-900);">
+                        Services Available in All Areas
+                    </h2>
+
+                    <div style="display: grid; grid-template-columns: 1fr; gap: var(--spacing-5);">
+                        <a href="residential.html" style="text-decoration: none; background: white; padding: var(--spacing-5); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); display: flex; align-items: center; gap: var(--spacing-4); transition: transform 0.2s;">
+                            <div style="flex-shrink: 0; width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="color: white; font-size: 1.75rem;">home</span>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3 style="font-size: var(--font-size-lg); font-weight: 700; color: var(--color-gray-900); margin-bottom: var(--spacing-1);">Residential Window Cleaning</h3>
+                                <p style="font-size: var(--font-size-sm); color: var(--color-gray-600);">Complete interior and exterior window cleaning for homes</p>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: var(--color-primary);">arrow_forward</span>
+                        </a>
+
+                        <a href="commercial.html" style="text-decoration: none; background: white; padding: var(--spacing-5); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); display: flex; align-items: center; gap: var(--spacing-4); transition: transform 0.2s;">
+                            <div style="flex-shrink: 0; width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="color: white; font-size: 1.75rem;">business</span>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3 style="font-size: var(--font-size-lg); font-weight: 700; color: var(--color-gray-900); margin-bottom: var(--spacing-1);">Commercial Window Cleaning</h3>
+                                <p style="font-size: var(--font-size-sm); color: var(--color-gray-600);">Professional storefront and office building window washing</p>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: var(--color-primary);">arrow_forward</span>
+                        </a>
+
+                        <a href="high-rise.html" style="text-decoration: none; background: white; padding: var(--spacing-5); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); display: flex; align-items: center; gap: var(--spacing-4); transition: transform 0.2s;">
+                            <div style="flex-shrink: 0; width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="color: white; font-size: 1.75rem;">apartment</span>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3 style="font-size: var(--font-size-lg); font-weight: 700; color: var(--color-gray-900); margin-bottom: var(--spacing-1);">High-Rise Window Cleaning</h3>
+                                <p style="font-size: var(--font-size-sm); color: var(--color-gray-600);">Specialized equipment for multi-story buildings</p>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: var(--color-primary);">arrow_forward</span>
+                        </a>
+
+                        <a href="gutter-cleaning.html" style="text-decoration: none; background: white; padding: var(--spacing-5); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); display: flex; align-items: center; gap: var(--spacing-4); transition: transform 0.2s;">
+                            <div style="flex-shrink: 0; width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="color: white; font-size: 1.75rem;">water_drop</span>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3 style="font-size: var(--font-size-lg); font-weight: 700; color: var(--color-gray-900); margin-bottom: var(--spacing-1);">Gutter Cleaning</h3>
+                                <p style="font-size: var(--font-size-sm); color: var(--color-gray-600);">Professional gutter cleaning and debris removal</p>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: var(--color-primary);">arrow_forward</span>
+                        </a>
+
+                        <a href="pressure-washing.html" style="text-decoration: none; background: white; padding: var(--spacing-5); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); display: flex; align-items: center; gap: var(--spacing-4); transition: transform 0.2s;">
+                            <div style="flex-shrink: 0; width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined" style="color: white; font-size: 1.75rem;">shower</span>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3 style="font-size: var(--font-size-lg); font-weight: 700; color: var(--color-gray-900); margin-bottom: var(--spacing-1);">Pressure Washing</h3>
+                                <p style="font-size: var(--font-size-sm); color: var(--color-gray-600);">Deep cleaning for siding, driveways, and patios</p>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: var(--color-primary);">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section class="section">
+            <div class="container">
+                <div class="cta-section">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Serving Your Community with Pride</h2>
+                        <p class="cta-description">
+                            No matter where you're located in our service area, we bring the same professional service and exceptional results. Contact us today for your free quote!
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="tel:+15551234567" class="btn btn-accent btn-lg">
+                                <span class="material-symbols-outlined" style="font-size: 1.5rem; margin-right: 0.5rem;">phone</span>
+                                Call (555) 123-4567
+                            </a>
+                            <a href="contact.html" class="btn btn-outline btn-lg" style="background-color: white; color: var(--color-primary);">
+                                <span class="material-symbols-outlined" style="font-size: 1.5rem; margin-right: 0.5rem;">email</span>
+                                Contact Us
+                            </a>
+                        </div>
+                        <p style="margin-top: var(--spacing-6); font-size: var(--font-size-sm); opacity: 0.9;">
+                            <span class="material-symbols-outlined" style="vertical-align: middle; font-size: 1.25rem; margin-right: 0.25rem;">schedule</span>
+                            Serving Hamilton and surrounding areas | Same-day quotes available
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Crystal Clear</h3>
+                    <p>
+                        Professional window washing services for residential and commercial properties in Hamilton, Ontario and surrounding areas.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-item">
+                        <span class="material-symbols-outlined footer-icon">phone</span>
+                        <div>
+                            <p><strong>Phone</strong></p>
+                            <a href="tel:+15551234567">(555) 123-4567</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="material-symbols-outlined footer-icon">email</span>
+                        <div>
+                            <p><strong>Email</strong></p>
+                            <a href="mailto:info@crystalclearwashing.com">info@crystalclearwashing.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="material-symbols-outlined footer-icon">location_on</span>
+                        <div>
+                            <p><strong>Address</strong></p>
+                            <p>123 Main Street<br>Hamilton, ON L8P 1A1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crystal Clear Window Washing. All rights reserved. | Hamilton, Ontario</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
