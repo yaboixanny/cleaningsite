@@ -1,20 +1,8 @@
 # robots.txt for Crystal Clear Window Washing
-# This file tells search engines which pages to crawl
+# https://yaboixanny.github.io/cleaningsite/
 
 User-agent: *
 Allow: /
 
-# Disallow admin and private directories (if any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Disallow file types
-Disallow: *.pdf$
-Disallow: *.doc$
-Disallow: *.docx$
-
-# Sitemap location (Update with your actual domain)
-Sitemap: https://www.crystalclearwashing.com/sitemap.xml
-
-# Crawl-delay (optional - prevents aggressive crawling)
-# Crawl-delay: 10
+# Sitemap location
+Sitemap: https://yaboixanny.github.io/cleaningsite/sitemap.xml
